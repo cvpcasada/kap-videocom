@@ -1,0 +1,30 @@
+{
+	"name": "kap-videocom",
+	"version": "0.0.1",
+	"description": "Share media on VideoCom Cloud",
+	"license": "MIT",
+	"repository": "cvpcasada/kap-videocom",
+	"author": {
+		"name": "Cyrus Venn Casada",
+		"email": "cvpcasada@outlook.com",
+		"url": "https://github.com/cvpcasada/kap-videocom"
+	},
+	"files": [
+		"index.js",
+		"auth.js"
+	],
+	"keywords": [
+		"kap-plugin",
+		"videocom",
+		"gif",
+		"upload",
+		"share"
+	],
+	"dependencies": {
+		"ws": "^8.13.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.7",
+		"prettier-plugin-jsdoc": "^0.4.2"
+	}
+}
